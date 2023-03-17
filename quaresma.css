@@ -91,12 +91,14 @@ section {
     padding-left: 10px;
     background: transparent;
     border-radius: 2px;
-    letter-spacing: 1px;
-    background: rgba(255, 255, 255, 0.316);
+    letter-spacing: 2px;
+    background: rgba(255, 255, 255, 0.407);
     width: 550px;
     height: 60px;
-    box-shadow: #00000028 2px -2px 2px;;
+    box-shadow: #00000028 2px -2px 2px;
+    margin-bottom: 4px;
 }
+
 
 footer { 
     width: 99vw;
@@ -125,7 +127,7 @@ footer {
 @media screen and (max-width: 580px) {
 
     html {
-        background-image: url(coroa\ e\ Cruz1.png);
+        background-image: url(headerQuaresma.jpg);
         background-position: right;
         background-attachment: fixed;
         background-size: cover;
