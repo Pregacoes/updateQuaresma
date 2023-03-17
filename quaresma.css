@@ -23,19 +23,24 @@ body {
 }
 
 header {
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 50px;
     width: 94.3vw;
     text-align: center;
     padding: 80px 10px;
     background: transparent;
     color: #000;
-    margin-bottom: -70px;
+    margin-bottom: -40px;
     text-shadow: 1px 1px 1px rgb(255, 255, 255);
     letter-spacing: 3px;
     background: rgba(255, 255, 255, 0.201);
     border-radius: 8px;
     box-shadow: 2px -2px 2px #00000052;
+}
+
+hr.header {
+    margin-top: 15px;
+    margin-bottom: -80px;
 }
 
 .title {
@@ -63,6 +68,11 @@ section {
     /* background: blueviolet; */
     margin-top: 50px;
     width: 50%;
+}
+
+hr {
+    width: 100%;
+    margin-top: 40px;
 }
 
 .filter {
@@ -96,7 +106,8 @@ section {
     width: 550px;
     height: 60px;
     box-shadow: #00000028 2px -2px 2px;
-    margin-bottom: 4px;
+    margin-bottom: 6px;
+    line-height: 22px;
 }
 
 
